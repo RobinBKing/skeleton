@@ -8,13 +8,24 @@
 
 /* For testing only */
 
-:not(body):not(html) {
+/*:not(body):not(html) {
   box-sizing:border-box;
   border:1px dashed #000;
-}
+}*/
+
 .header {
   text-align: center;
 }
  .header .button-primary {
   background-color: teal;
+}
+ .docs-header {
+  text-align: center;
+}
+.docs-section .columns, .column{
+  background-color: #EEE;
+  margin: 6px;
+  padding: 2px;
+  border-radius: 6px;
+  text-align: center;
 }
